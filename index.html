@@ -17,7 +17,7 @@
     }
 
     body {
-      background: url('https://cdn-img.czl.net/2023/05/23/pjbczr.webp') no-repeat center center fixed;
+      background: url('./image.png') no-repeat center center fixed;
       /* 自定义背景图 */
       background-size: cover;
       width: 90%;
@@ -370,11 +370,6 @@
 <body>
   <header>
     <h1 class="text-3xl font-semibold text-center mb-8 text-gradient">OpenAI API 信息查询</h1>
-    <p class=" text-center  text-gradient" style="text-align: center;">7月22日更新后，需使用sess码进行查询。使用key只能查询总额度、绑卡、GPT4和组织ID。
-    </p>
-    <a href="oapi.html" style="text-align: center;color:antiquewhite;text-decoration: none;font-weight: 700;">
-      <p>Oapi的余额查询</p>
-    </a>
   </header>
 
   <div class="query">
@@ -392,7 +387,7 @@
     </div>
     <select id="api-url-select" style="width:49%;">
       <option value="https://api.openai.com">【官网线路】api.openai.com</option>
-      <option value="custom">【已前置https】自定义 ...</option>
+      <option value="https://api.xiaojuan.tech">【OpenKEY】OpenKEY4.0</option>
     </select>
 
     <!-- 自定义API链接输入框 -->
@@ -423,12 +418,8 @@
     <tbody></tbody>
   </table>
   <footer>
-    <p>广告链接：
-      <a href="https://chat.czl.net" target="_blank">CZLChat</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://oapi.czl.net" target="_blank">CZLOapi</a>
-      <br>
-      本网页由<a href="https://woodchen.ink" target="_blank">woodchen</a>开源于<a
-        href="https://github.com/woodchen-ink/openai-billing-query" target="_blank">Github</a>,欢迎给个star
+    <p>
+      Powered by <a href="https://openkey.cloud/" target="_blank">OpenKEY</a>
     </p>
 
   </footer>
